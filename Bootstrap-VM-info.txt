@@ -1,0 +1,27 @@
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+#--CHOICE--
+# PREFERRED
+python get-pip.py  --user   # (this does not touch system files)
+# RESULT
+# /home/billtorcaso/.local
+# /home/billtorcaso/.local/lib
+# /home/billtorcaso/.local/lib/python3.7
+# /home/billtorcaso/.local/lib/python3.7/site-packages
+# /home/billtorcaso/.local/bin
+# NOT PREFERRED
+###python get-pip.py           # (this is system-wide)
+#--CHOICE END--
+
+pip install pipenv --user
+
+# RESULT
+# /home/billtorcaso/.cache
+# /home/billtorcaso/.cache/pip
+# /home/billtorcaso/.cache/pip/http
+# /home/billtorcaso/.local
+# /home/billtorcaso/.local/lib
+# /home/billtorcaso/.local/lib/python3.7
+# /home/billtorcaso/.local/bin
+
+pipenv shell                    # (have to re-source .bash_profile)
+
