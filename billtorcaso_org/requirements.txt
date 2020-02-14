@@ -1,6 +1,6 @@
-###Django>=3.0.2  Wagtail is not ready for this yet.
-Django==2.2.9
-wagtail==2.7.1
+###Django==2.2.9
+Django>=3.0.2  
+wagtail==2.8
 #
 #   I like to have 'django-extensions' to get the 'shell_plus' management command,
 #   and IPython for convenience when running shell_plus
@@ -9,8 +9,9 @@ django-extensions>=2.2.5
 ipython>=7.11.1
 #
 #   This is the inventory of modules installed by the previous packages,
-#   as of 2020-01-31
+#   as of 2020-02-03
 #
+#   appnope==0.1.0
 #   backcall==0.1.0
 #   beautifulsoup4==4.6.0
 #   certifi==2019.11.28
@@ -25,14 +26,13 @@ ipython>=7.11.1
 #   draftjs-exporter==2.1.7
 #   html5lib==1.0.1
 #   idna==2.8
-#   ipython==7.11.1
+#   ipython==7.12.0
 #   ipython-genutils==0.2.0
 #   jedi==0.16.0
 #   parso==0.6.0
 #   pexpect==4.8.0
 #   pickleshare==0.7.5
 #   Pillow==6.2.2
-#   pkg-resources==0.0.0
 #   prompt-toolkit==3.0.3
 #   ptyprocess==0.6.0
 #   Pygments==2.5.2
