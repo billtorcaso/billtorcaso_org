@@ -1,5 +1,6 @@
 # Added by Bill Torcaso
 venv_billtorcaso_org/**
+**/.vagrant
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
