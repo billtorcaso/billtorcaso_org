@@ -1,6 +1,6 @@
 ###Django>=3.0.2  Wagtail is not ready for this yet.
 Django==2.2.10
-wagtail==2.7.1
+wagtail==2.7.2
 #
 #   I like to have 'django-extensions' to get the 'shell_plus' management command,
 #   and IPython for convenience when running shell_plus
@@ -54,7 +54,7 @@ ipython>=7.11.1
 #   traitlets==4.3.3
 #   Unidecode==1.1.1
 #   urllib3==1.25.7
-#   wagtail==2.7.1
+#   wagtail==2.7.2
 #   wcwidth==0.1.8
 #   webencodings==0.5.1
 #   Willow==1.3
